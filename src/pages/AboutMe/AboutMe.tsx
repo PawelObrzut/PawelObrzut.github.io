@@ -6,7 +6,7 @@ const Home = () => {
       <section className="main--aboutMe">
         <h2>About Me</h2>
         <p className="main--aboutMe__paragraph">
-          Hi! My name is Pawel Obrzut, I am an accomplished individual with a diverse background in both biology and technology. After obtaining my MA in Biology from Maria Curie University in Lublin in 2009, I dove into the world of sales and product development in the self-adhesive market, honing my skills for over a decade.
+          Hi! My name is Pawel Obrzut, I am an accomplished individual with a diverse background in both biology and technology. After graduating from university in 2009, I dove into the world of sales and product development in the self-adhesive market, honing my skills for over a decade.
         </p>
 
         <p className="main--aboutMe__paragraph">

@@ -14,7 +14,7 @@ const Header = () => {
           <ul className="header--links__list">
             <Link to='/'><li>projects</li></Link>
             <Link to='aboutme'><li>about me</li></Link>
-            <Link to='hobbies'><li>hobbies</li></Link>
+            <Link to='contact'><li>contact</li></Link>
           </ul>
         </section>
       </header>
