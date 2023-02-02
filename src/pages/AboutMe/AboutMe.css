@@ -1,0 +1,37 @@
+.main {
+  padding: 3rem;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 1.25rem;
+}
+
+.position--time__stamp {
+  line-height: 0.9rem;
+}
+
+.position--title {
+  margin-bottom: 0;
+}
+
+.position--empoyer {
+  color: var(--gray);
+}
+
+.position--description__paragraph {
+  padding-right: 3rem;
+  margin: 0.5rem 0;
+}
+
+.position--skills__title {
+  margin: 0;
+}
+
+.position--skills_list {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.position--skills_list li {
+  margin: 0 1rem;
+}
