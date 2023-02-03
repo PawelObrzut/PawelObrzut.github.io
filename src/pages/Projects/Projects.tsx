@@ -37,6 +37,7 @@ const Projects = () => {
           <img className="project--image" src={ImageGallery} alt="project-imageGallery-app" />
           <section className="project--links">
             <a target="blank" href="https://github.com/PawelObrzut/ImageGallery">GitHub Repo</a>
+            <a target="blank" href="https://main.d1p5bfrstj7aoq.amplifyapp.com/">Deployed Demo</a>
           </section>
         </li>
         <li className="project">
@@ -61,6 +62,7 @@ const Projects = () => {
           <img className="project--image" src={TinyBlog} alt="project-tinyBlog-app" />
           <section className="project--links">
             <a target="blank" href="https://github.com/PawelObrzut/ts_tiny_blog">GitHub Repo</a>
+            <a target="blank" href="https://pawelobrzut.github.io/ts_tiny_blog/">Deployed Demo</a>
           </section>
         </li>
         <li className="project">
@@ -97,6 +99,7 @@ const Projects = () => {
           <img className="project--image" src={JigsawPuzzle} alt="project-jigsawPuzzle-app" />
           <section className="project--links">
             <a target="blank" href="https://github.com/PawelObrzut/jigsaw-puzzle">GitHub Repo</a>
+            <a target="blank" href="https://pawelobrzut.github.io/jigsaw-puzzle/">Deployed Demo</a>
           </section>
         </li>
 
