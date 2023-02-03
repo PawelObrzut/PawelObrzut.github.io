@@ -24,6 +24,7 @@ const Projects = () => {
           <section className="project--links">
             <a target="blank" href="https://github.com/PawelObrzut/milkApp-frontend">GitHub Repo Frontend</a>
             <a target="blank" href="https://github.com/PawelObrzut/milkApp-backend">GitHub Repo Backend</a>
+            <a target="blank" href="https://milkapp.onrender.com/">Deployed Demo</a>
           </section>
         </li>
         <li className="project">

@@ -34,6 +34,8 @@
 
 .project--links {
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .project--links a {
