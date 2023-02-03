@@ -15,9 +15,9 @@ const Home = () => {
       </section>
       <section className="main--resume">
         <h2>Professional Experience</h2>
-        <ul>
+        <ul className="main--resume__positions">
           <li>
-            <h3 className="position--title">Full-Stack JavaScript Developer <span className="position--empoyer">@School of Applied Technology &lt;/salt&gt;</span></h3>
+            <h3 className="position--title">Full-Stack JavaScript Developer <span><a target="blank" href="https://www.salt.study/our-hubs/stockholm">@School of Applied Technology &lt;/salt&gt;</a></span></h3>
             <span className="position--work__period">Sep 2022 - Present</span>
             <p className="position--description__paragraph">
               I completed an intensive, three-months training program for full stack web development with the focus on TDD, mob programming, and applied learning.
@@ -43,7 +43,7 @@ const Home = () => {
               </ul>
           </li>
           <li>
-            <h3 className="position--title">Product Owner <span className="position--empoyer">@Rollfix</span></h3>
+            <h3 className="position--title">Product Owner <span><a target="blank" href="https://www.rollfix.pl/">@Rollfix</a></span></h3>
             <span>Jun 2017 - Mar 2022</span>
             <p className="position--description__paragraph">
               I was a product owner for aluminum tapes, pvc tapes, double sided acrylic foams and double sided fiber-glass reinforced tapes.
@@ -58,7 +58,7 @@ const Home = () => {
             </p>
           </li>
           <li>
-            <h3 className="position--title">Sales Associate <span className="position--empoyer">@Tarzian West For Housewares</span></h3>
+            <h3 className="position--title">Sales Associate <span><a target="blank" href="https://tarzianwestforhousewares.com/">@Tarzian West For Housewares</a></span></h3>
             <span>Nov 2016 - Apr 2017</span>
             <p className="position--description__paragraph">
               Providing customer service in retail industry
@@ -68,7 +68,7 @@ const Home = () => {
             </p>
           </li>
           <li>
-            <h3 className="position--title">Sales Specialist <span className="position--empoyer">@Rollfix</span></h3>
+            <h3 className="position--title">Sales Specialist <span><a target="blank" href="https://www.rollfix.pl/">@Rollfix</a></span></h3>
             <span>Nov 2016 - Apr 2017</span>
             <p className="position--description__paragraph">
               Developing sales in the furniture, optical, packaging, printing, and automotive sectors. Maintaining long-term relationships with clients and suppliers

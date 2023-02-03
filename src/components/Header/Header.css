@@ -15,12 +15,13 @@
 
 .header--title__name {
   position: absolute;
-  left: 4.5rem;
-  top: 4.5rem;
+  left: 6rem;
+  top: 5rem;
   color: var(--gray);
   transform: translateY(-3rem) rotate(-25deg);
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: 'Teko', sans-serif;
+  line-height: 2.5rem;
 }
 
 .header--grid__container {

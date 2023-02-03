@@ -15,38 +15,40 @@ const Projects = () => {
         <li className="project">
           <h4 className="project--title">Milk App</h4>
           <section className="project--description">
-            <p className="project--description__paragraph">An advanced fullStack React - Typescript - Express - MongoDB project.</p>
-            <p className="project--description__paragraph">A project implements higher state management using context hook, displays selected items via dynamic routing and gets the content data from the database via the Backend. I set Connection to Mongo with mongoose schema. I also added middleware in the express to filter and paginate data.</p>
-            <p className="project--description__paragraph">Both client and server sides are type-safe with proper error handling.</p>
-            <p className="project--description__paragraph">I have deployed the front-end to AWS Amplify and the back-end to AWS Beanstalk. However, due to the absence of the SSL certificate, communication between them is disrupted.</p>
+            <p className="project--description__paragraph">
+              A MERN project that implements state management using context hook, 
+              displays selected items via dynamic routing and gets the content data from the database via the back-end. 
+              I set Connection to Mongo with mongoose schema. I also added middleware in the express to filter and paginate data.
+            </p>
           </section>
           <img className="project--image" src={MilkApp} alt="project-milk-app"/>
           <section className="project--links">
-            <a target="blank" href="https://github.com/PawelObrzut/milkApp-frontend">GitHub Repo Frontend</a>
-            <a target="blank" href="https://github.com/PawelObrzut/milkApp-backend">GitHub Repo Backend</a>
-            <a target="blank" href="https://milkapp.onrender.com/">Deployed Demo</a>
+            <a target="blank" href="https://github.com/PawelObrzut/milkApp-frontend">GitHub client</a>
+            <a target="blank" href="https://github.com/PawelObrzut/milkApp-backend">GitHub server</a>
+            <a target="blank" href="https://milkapp.onrender.com/">Demo</a>
           </section>
         </li>
         <li className="project">
           <h4 className="project--title">Image Gallery with Typescript</h4>
           <section className="project--description">
-            <p className="project--description__paragraph">A front-end project with the use of Unsplash api.</p>
-            <p className="project--description__paragraph">The application displays pictures upon user search. This project utilizes the Unsplash npm package for constructing fetch requests in an easy and readable way.</p>
-            <p className="project--description__paragraph">Results are paginated; the last 3 querries are stored in local storage. Grid is used to display results.</p>
-            <p className="project--description__paragraph">This project also uses a loading screen for better UX and takes advantage of @media queries for better exploiting available screens.</p>
+            <p className="project--description__paragraph">
+              A front-end project that utilizes the Unsplash api and Unsplash npm package for constructing fetch requests in an easy and readable way.
+              Results are paginated; the last 3 querries are stored in local storage. Grid is used to display results.
+            </p>
           </section>
           <img className="project--image" src={ImageGallery} alt="project-imageGallery-app" />
           <section className="project--links">
-            <a target="blank" href="https://github.com/PawelObrzut/ImageGallery">GitHub Repo</a>
-            <a target="blank" href="https://main.d1p5bfrstj7aoq.amplifyapp.com/">Deployed Demo</a>
+            <a target="blank" href="https://github.com/PawelObrzut/ImageGallery">GitHub</a>
+            <a target="blank" href="https://main.d1p5bfrstj7aoq.amplifyapp.com/">Demo</a>
           </section>
         </li>
         <li className="project">
           <h4 className="project--title">Cocktail App</h4>
           <section className="project--description">
-            <p className="project--description__paragraph">A full-stack project utilizing React, www.thecocktaildb.com API and MongoDB.</p>
-            <p className="project--description__paragraph">I implemented some of the most popular hooks. I used routes and I played a little with props drilling.</p>
-            <p className="project--description__paragraph">The back-end yet again is done in express, however, it delivers a connection to MongoDB and the option to store your favorite results in the cloud database. Mongo connection is set with MongoClient.</p>
+            <p className="project--description__paragraph">
+              A MERN project with the use of www.thecocktaildb.com API. I use the most popular hooks, routes and I played a little with props drilling.
+              The back-end yet again is done in express, to connect to MongoDB and serve the option of storing your favorite drinks in the cloud database. Mongo connection is set with MongoClient.
+            </p>
           </section>
           <img className="project--image" src={CocktailApp} alt="project-coctail-app" />
           <section className="project--links">
@@ -56,9 +58,9 @@ const Projects = () => {
         <li className="project">
           <h4 className="project--title">Tiny Blog</h4>
           <section className="project--description">
-            <p className="project--description__paragraph">A React front-end project in Typescript.</p>
-            <p className="project--description__paragraph">Application fetches for posts and displays selected sections.</p>
-            <p className="project--description__paragraph">This project takes Typescript to the next level, making props typesafe. I also had fun learning react-transition-group to bring transition to the dropdowns.</p>
+            <p className="project--description__paragraph">
+              A React front-end project in Typescript. Application fetches for posts and displays selected sections. This project takes Typescript to the next level, making props typesafe. I also had fun learning react-transition-group to bring transition to the dropdowns.
+            </p>           
           </section>
           <img className="project--image" src={TinyBlog} alt="project-tinyBlog-app" />
           <section className="project--links">
@@ -69,9 +71,10 @@ const Projects = () => {
         <li className="project">
           <h4 className="project--title">Address Book App</h4>
           <section className="project--description">
-            <p className="project--description__paragraph">An application for keeping track of addresses.</p>
-            <p className="project--description__paragraph">Front-end is build with vanilla Javascript and Bootstrap. Back-end is an express RESTfull server storing data in a local variable.</p>
-            <p className="project--description__paragraph">Worth mentioning is that api endpoints are tested with Mocha and request is validated with Joi.</p>
+            <p className="project--description__paragraph">
+              An application for keeping track of addresses. Front-end is build with vanilla Javascript and Bootstrap. Back-end is an express RESTfull server storing data in a local variable.
+              Worth mentioning is that api endpoints are tested with Mocha and request is validated with Joi.
+            </p>
           </section>
           <img className="project--image" src={BookApp} alt="project-book-app" />
           <section className="project--links">
@@ -81,9 +84,10 @@ const Projects = () => {
         <li className="project">
           <h4 className="project--title">ToDo with Typescript</h4>
           <section className="project--description">
-            <p className="project--description__paragraph">A classic ToDo list but wrapped with Typescript superset.</p>
-            <p className="project--description__paragraph">This project is a first step into Typescript, which now I feel quite comfortable to work with. Apart prom Typescript itself it requires properly configured wbpack.config.js file.</p>
-            <p className="project--description__paragraph">For class names I followed BEM naming convention. Ever scince this project BEM is my favourite choice for structuring css.</p>
+            <p className="project--description__paragraph">
+              A classic ToDo list wrapped with Typescript superset. I configured wbpack.config.js file myself.
+              For class names I followed BEM naming convention. Ever scince this project BEM is my favourite choice for structuring css.
+            </p>
           </section>
           <img className="project--image" src={ToDoApp} alt="project-todo-app" />
           <section className="project--links">
@@ -93,9 +97,10 @@ const Projects = () => {
         <li className="project">
           <h4 className="project--title">Jigsaw Puzzle Game</h4>
           <section className="project--description">
-            <p className="project--description__paragraph">Another Typescript in React front-end project.</p>
-            <p className="project--description__paragraph">A basic jigsaw puzzle game with images for children. Project implements react-jigsaw-puzzle package.</p>
-            <p className="project--description__paragraph">Apart from jigsaw package it was also fun to discover Tailwind and build analog clock.</p>
+            <p className="project--description__paragraph">
+              Another Typescript in React front-end project.
+              A basic jigsaw puzzle game with images for children. Project implements react-jigsaw-puzzle package and is styled with the use of Tailwind.
+            </p>
           </section>
           <img className="project--image" src={JigsawPuzzle} alt="project-jigsawPuzzle-app" />
           <section className="project--links">

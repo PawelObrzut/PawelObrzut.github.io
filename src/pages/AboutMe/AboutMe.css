@@ -5,6 +5,10 @@
   font-size: 1.25rem;
 }
 
+.main--resume__positions {
+  padding-left: 1.25rem;
+}
+
 .position--time__stamp {
   line-height: 0.9rem;
 }
@@ -13,12 +17,12 @@
   margin-bottom: 0;
 }
 
-.position--empoyer {
+.position--title a {
+  text-decoration: none;
   color: var(--gray);
 }
 
 .position--description__paragraph {
-  padding-right: 3rem;
   margin: 0.5rem 0;
 }
 
@@ -34,4 +38,11 @@
 
 .position--skills_list li {
   margin: 0 1rem;
+}
+
+@media only screen and (max-width: 750px) {
+  .main {
+    padding: 1rem;
+    font-size: 1rem;
+  }
 }

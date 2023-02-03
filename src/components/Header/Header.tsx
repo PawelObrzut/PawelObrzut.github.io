@@ -7,7 +7,7 @@ const Header = () => {
     <>
       <header className="header header--grid__container">
         <section className="header--title">
-          <h1 className="header--title__name">🅿🅰🆆🅴🅻<br></br>🅾🅱🆁🆉🆄🆃</h1>
+          <h1 className="header--title__name">Pawel<br></br>Obrzut</h1>
         </section>
 
         <section className="header--links">

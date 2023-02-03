@@ -29,13 +29,12 @@
   font-size: 1.25rem;
   margin: 0.5rem 0;
   line-height: 1.35rem;
-  padding-right: 2rem;
 }
 
 .project--links {
   text-align: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .project--links a {
@@ -45,11 +44,20 @@
   text-decoration: none;
   border: solid 0.05rem #000;
   color: var(--gray);
+  display: flex;
+  align-items: center;
 }
 
 .project--links a:hover {
   background-color: var(--gray);
   color: #fff;
+}
+
+@media only screen and (max-width: 550px) {
+  .project--links a {
+    padding: 0.25rem 0.5rem;
+    line-height: 1rem;
+  }
 }
 
 @media only screen and (min-width: 1100px) {
