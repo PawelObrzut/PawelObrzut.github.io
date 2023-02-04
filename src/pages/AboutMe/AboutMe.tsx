@@ -6,9 +6,8 @@ const Home = () => {
       <section className="main--aboutMe">
         <h2>About Me</h2>
         <p className="main--aboutMe__paragraph">
-          Hi! My name is Pawel Obrzut, I am an accomplished individual with a diverse background in both biology and technology. After graduating from university in 2009, I dove into the world of sales and product development in the self-adhesive market, honing my skills for over a decade.
+          Hi! My name is Pawel Obrzut, I am an accomplished individual with a diverse background in biology and technology. After graduating with an MSc degree in Biology in 2009, I dove into the world of sales and product development in the self-adhesive market, honing my skills for over a decade.
         </p>
-
         <p className="main--aboutMe__paragraph">
           However, my true passion lies in programming, and I have dedicated myself to mastering a variety of languages and technologies through online courses and eventually a demanding bootcamp at SALT in Stockholm. My expertise in web development tech-stacks like Javascript-Typescript, React, MongoDB, and many more make me a valuable asset in the tech industry. In addition to my professional pursuits, I also enjoy a variety of outdoor activities, from running and cycling to ice skating and sailing. I have a passion for playing the guitar and create my own music.
         </p>

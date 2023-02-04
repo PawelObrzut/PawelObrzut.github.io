@@ -52,7 +52,8 @@ const Projects = () => {
           </section>
           <img className="project--image" src={CocktailApp} alt="project-coctail-app" />
           <section className="project--links">
-            <a target="blank" href="https://github.com/PawelObrzut/mixedDrinksApp">GitHub Repo</a>
+            <a target="blank" href="https://github.com/PawelObrzut/mixedDrinksApp">GitHub</a>
+            <a target="blank" href="https://cocktailapp-v2j9.onrender.com/">Demo</a>
           </section>
         </li>
         <li className="project">
@@ -64,8 +65,8 @@ const Projects = () => {
           </section>
           <img className="project--image" src={TinyBlog} alt="project-tinyBlog-app" />
           <section className="project--links">
-            <a target="blank" href="https://github.com/PawelObrzut/ts_tiny_blog">GitHub Repo</a>
-            <a target="blank" href="https://pawelobrzut.github.io/ts_tiny_blog/">Deployed Demo</a>
+            <a target="blank" href="https://github.com/PawelObrzut/ts_tiny_blog">GitHub</a>
+            <a target="blank" href="https://pawelobrzut.github.io/ts_tiny_blog/">Demo</a>
           </section>
         </li>
         <li className="project">
@@ -78,7 +79,7 @@ const Projects = () => {
           </section>
           <img className="project--image" src={BookApp} alt="project-book-app" />
           <section className="project--links">
-            <a target="blank" href="https://github.com/PawelObrzut/Address-Book-App">GitHub Repo</a>
+            <a target="blank" href="https://github.com/PawelObrzut/Address-Book-App">GitHub</a>
           </section>
         </li>
         <li className="project">
@@ -91,7 +92,7 @@ const Projects = () => {
           </section>
           <img className="project--image" src={ToDoApp} alt="project-todo-app" />
           <section className="project--links">
-            <a target="blank" href="https://github.com/PawelObrzut/toDoApp">GitHub Repo</a>
+            <span>GitHub Repository is private</span>
           </section>
         </li>
         <li className="project">
@@ -104,8 +105,8 @@ const Projects = () => {
           </section>
           <img className="project--image" src={JigsawPuzzle} alt="project-jigsawPuzzle-app" />
           <section className="project--links">
-            <a target="blank" href="https://github.com/PawelObrzut/jigsaw-puzzle">GitHub Repo</a>
-            <a target="blank" href="https://pawelobrzut.github.io/jigsaw-puzzle/">Deployed Demo</a>
+            <a target="blank" href="https://github.com/PawelObrzut/jigsaw-puzzle">GitHub</a>
+            <a target="blank" href="https://pawelobrzut.github.io/jigsaw-puzzle/">Demo</a>
           </section>
         </li>
 
