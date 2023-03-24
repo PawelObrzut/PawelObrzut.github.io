@@ -6,12 +6,44 @@ import CocktailApp from '../../images/CocktailApp.png';
 import TinyBlog from '../../images/TinyBlog.png';
 import JigsawPuzzle from '../../images/JigsawPuzzle.png';
 import MilkApp from '../../images/MilkApp.png';
+import FlightFinderApp from '../../images/FlightFinderApp.png';
+import SaltazonApp from '../../images/SaltazonApp.png';
 
 const Projects = () => {
   return (
     <main className="main">
       <h2 className="main--title">Projects</h2>
       <ul className="projects--list">
+
+        <li className="project">
+          <h4 className="project--title">Tiny Blog</h4>
+          <section className="project--description">
+            <p className="project--description__paragraph">
+              A React front-end project in Typescript. Application fetches for posts and displays selected sections. This project takes Typescript to the next level, making props typesafe. I also had fun learning react-transition-group to bring transition to the dropdowns.
+            </p>           
+          </section>
+          <img className="project--image" src={TinyBlog} alt="project-tinyBlog-app" />
+          <section className="project--links">
+            <a target="blank" href="https://github.com/PawelObrzut/ts_tiny_blog">GitHub</a>
+            <a target="blank" href="https://pawelobrzut.github.io/ts_tiny_blog/">Demo</a>
+          </section>
+        </li>
+
+        <li className="project">
+          <h4 className="project--title">Saltazon E-commerce platform</h4>
+          <section className="project--description">
+            <p className="project--description__paragraph">
+              An app for online merchandising. This project consists of three sections - FrontEnd, BackEnd and DataBase. Implements authentication, protected routes, data pagination, data hashing, CRUD operations, and more...
+            <br />
+              Technologies used: <i>[node, typescript, bcrypt, passport, react, vite, tailwind, sqlite, express, morga, react-hook-forms, yup, js-cookie, eslint, react-icons ]</i>
+            </p>           
+          </section>
+          <img className="project--image" src={SaltazonApp} alt="project-satlazon-app" />
+          <section className="project--links">
+            <a target="blank" href="https://github.com/PawelObrzut/e-commerce-platform-zon">GitHub</a>
+          </section>
+        </li>
+
         <li className="project">
           <h4 className="project--title">Milk App</h4>
           <section className="project--description">
@@ -39,7 +71,7 @@ const Projects = () => {
           <img className="project--image" src={ImageGallery} alt="project-imageGallery-app" />
           <section className="project--links">
             <a target="blank" href="https://github.com/PawelObrzut/ImageGallery">GitHub</a>
-            <a target="blank" href="https://main.d1p5bfrstj7aoq.amplifyapp.com/">Demo</a>
+            <a target="blank" href="https://imagegallery-xg6w.onrender.com/">Demo</a>
           </section>
         </li>
         <li className="project">
@@ -56,19 +88,22 @@ const Projects = () => {
             <a target="blank" href="https://cocktailapp-v2j9.onrender.com/">Demo</a>
           </section>
         </li>
+
         <li className="project">
-          <h4 className="project--title">Tiny Blog</h4>
+          <h4 className="project--title">Flight Finder</h4>
           <section className="project--description">
             <p className="project--description__paragraph">
-              A React front-end project in Typescript. Application fetches for posts and displays selected sections. This project takes Typescript to the next level, making props typesafe. I also had fun learning react-transition-group to bring transition to the dropdowns.
-            </p>           
+              An application that combines Flight-Finder interface built in Angular with my own mocked API which provides users with a seamless experience to book flights by fetching flight details from a sqlite3 database. 
+              Server is built in Node-Express, that offers a range of endpoints that require authentication to book flights.
+            </p>
           </section>
-          <img className="project--image" src={TinyBlog} alt="project-tinyBlog-app" />
+          <img className="project--image" src={FlightFinderApp} alt="flight-finder-app" />
           <section className="project--links">
-            <a target="blank" href="https://github.com/PawelObrzut/ts_tiny_blog">GitHub</a>
-            <a target="blank" href="https://pawelobrzut.github.io/ts_tiny_blog/">Demo</a>
+            <a target="blank" href="https://github.com/PawelObrzut/flight-Finder">GitHub client</a>
+            <a target="blank" href="https://github.com/PawelObrzut/flight-Booking-API">GitHub server</a>
           </section>
         </li>
+
         <li className="project">
           <h4 className="project--title">Address Book App</h4>
           <section className="project--description">
