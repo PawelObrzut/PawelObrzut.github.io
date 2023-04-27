@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e371083e.css",
+    "main.js": "/static/js/main.5b149dc1.js",
+    "static/media/TinyBlog.png": "/static/media/TinyBlog.43b40a34748cb296e570.png",
+    "static/media/ImageGallery.png": "/static/media/ImageGallery.42d7b925ba39721b5ce2.png",
+    "static/media/CocktailApp.png": "/static/media/CocktailApp.9ed18410594ccf05d6c4.png",
+    "static/media/JigsawPuzzle.png": "/static/media/JigsawPuzzle.64ae9644b36ad8eb1c79.png",
+    "static/media/SaltazonApp.png": "/static/media/SaltazonApp.325edda4a650931fff1e.png",
+    "static/media/ToDoApp.png": "/static/media/ToDoApp.e111a6e70f35a5471a85.png",
+    "static/media/BookApp.png": "/static/media/BookApp.30b43aeb234660667c65.png",
+    "static/media/MilkApp.png": "/static/media/MilkApp.74ce7438a5d5a2448670.png",
+    "static/media/FlightFinderApp.png": "/static/media/FlightFinderApp.c2ea47017a4215970e04.png",
+    "index.html": "/index.html",
+    "main.e371083e.css.map": "/static/css/main.e371083e.css.map",
+    "main.5b149dc1.js.map": "/static/js/main.5b149dc1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e371083e.css",
+    "static/js/main.5b149dc1.js"
+  ]
+}
