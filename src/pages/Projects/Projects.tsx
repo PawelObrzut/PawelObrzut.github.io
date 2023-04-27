@@ -16,6 +16,38 @@ const Projects = () => {
       <ul className="projects--list">
 
         <li className="project">
+          <h4 className="project--title">Saltazon E-commerce platform</h4>
+          <section className="project--description">
+            <p className="project--description__paragraph">
+              An app for online merchandising. This project consists of three sections - FrontEnd, BackEnd and DataBase. 
+              Implements authentication, protected routes, JWTs, data pagination, data hashing, CRUD operations, and more...
+            <br />
+              Technologies used: <i>[node, typescript, goLang, bcrypt, passport, react, vite, tailwind, postgresql, express, morgan, react-hook-forms, yup, js-cookie, eslint, react-icons ]</i>
+            </p>           
+          </section>
+          <img className="project--image" src={SaltazonApp} alt="project-satlazon-app" />
+          <section className="project--links">
+            <a target="blank" href="https://github.com/PawelObrzut/e-commerce-platform-zon">GitHub</a>
+            <a target="blank" href="https://tradezon-vite.onrender.com/">Demo</a>
+          </section>
+        </li>
+
+        <li className="project">
+          <h4 className="project--title">Image Gallery with Typescript</h4>
+          <section className="project--description">
+            <p className="project--description__paragraph">
+              A front-end project that utilizes the Unsplash api and Unsplash npm package for constructing fetch requests in an easy and readable way.
+              Results are paginated; the last 3 querries are stored in local storage. Grid is used to display results.
+            </p>
+          </section>
+          <img className="project--image" src={ImageGallery} alt="project-imageGallery-app" />
+          <section className="project--links">
+            <a target="blank" href="https://github.com/PawelObrzut/ImageGallery">GitHub</a>
+            <a target="blank" href="https://imagegallery-xg6w.onrender.com/">Demo</a>
+          </section>
+        </li>
+
+        <li className="project">
           <h4 className="project--title">Tiny Blog</h4>
           <section className="project--description">
             <p className="project--description__paragraph">
@@ -30,17 +62,17 @@ const Projects = () => {
         </li>
 
         <li className="project">
-          <h4 className="project--title">Saltazon E-commerce platform</h4>
+          <h4 className="project--title">Cocktail App</h4>
           <section className="project--description">
             <p className="project--description__paragraph">
-              An app for online merchandising. This project consists of three sections - FrontEnd, BackEnd and DataBase. Implements authentication, protected routes, data pagination, data hashing, CRUD operations, and more...
-            <br />
-              Technologies used: <i>[node, typescript, bcrypt, passport, react, vite, tailwind, sqlite, express, morga, react-hook-forms, yup, js-cookie, eslint, react-icons ]</i>
-            </p>           
+              A MERN project with the use of www.thecocktaildb.com API. I use the most popular hooks, routes and I played a little with props drilling.
+              The back-end yet again is done in express, to connect to MongoDB and serve the option of storing your favorite drinks in the cloud database. Mongo connection is set with MongoClient.
+            </p>
           </section>
-          <img className="project--image" src={SaltazonApp} alt="project-satlazon-app" />
+          <img className="project--image" src={CocktailApp} alt="project-coctail-app" />
           <section className="project--links">
-            <a target="blank" href="https://github.com/PawelObrzut/e-commerce-platform-zon">GitHub</a>
+            <a target="blank" href="https://github.com/PawelObrzut/mixedDrinksApp">GitHub</a>
+            <a target="blank" href="https://cocktailapp-v2j9.onrender.com/">Demo</a>
           </section>
         </li>
 
@@ -58,34 +90,6 @@ const Projects = () => {
             <a target="blank" href="https://github.com/PawelObrzut/milkApp-frontend">GitHub client</a>
             <a target="blank" href="https://github.com/PawelObrzut/milkApp-backend">GitHub server</a>
             <a target="blank" href="https://milkapp.onrender.com/">Demo</a>
-          </section>
-        </li>
-        <li className="project">
-          <h4 className="project--title">Image Gallery with Typescript</h4>
-          <section className="project--description">
-            <p className="project--description__paragraph">
-              A front-end project that utilizes the Unsplash api and Unsplash npm package for constructing fetch requests in an easy and readable way.
-              Results are paginated; the last 3 querries are stored in local storage. Grid is used to display results.
-            </p>
-          </section>
-          <img className="project--image" src={ImageGallery} alt="project-imageGallery-app" />
-          <section className="project--links">
-            <a target="blank" href="https://github.com/PawelObrzut/ImageGallery">GitHub</a>
-            <a target="blank" href="https://imagegallery-xg6w.onrender.com/">Demo</a>
-          </section>
-        </li>
-        <li className="project">
-          <h4 className="project--title">Cocktail App</h4>
-          <section className="project--description">
-            <p className="project--description__paragraph">
-              A MERN project with the use of www.thecocktaildb.com API. I use the most popular hooks, routes and I played a little with props drilling.
-              The back-end yet again is done in express, to connect to MongoDB and serve the option of storing your favorite drinks in the cloud database. Mongo connection is set with MongoClient.
-            </p>
-          </section>
-          <img className="project--image" src={CocktailApp} alt="project-coctail-app" />
-          <section className="project--links">
-            <a target="blank" href="https://github.com/PawelObrzut/mixedDrinksApp">GitHub</a>
-            <a target="blank" href="https://cocktailapp-v2j9.onrender.com/">Demo</a>
           </section>
         </li>
 
@@ -127,7 +131,8 @@ const Projects = () => {
           </section>
           <img className="project--image" src={ToDoApp} alt="project-todo-app" />
           <section className="project--links">
-            <span>GitHub Repository is private</span>
+            <a target="blank" href="https://github.com/PawelObrzut/toDoApp">GitHub</a>
+            <a target="blank" href="https://todoapp-uo72.onrender.com">Demo</a>
           </section>
         </li>
         <li className="project">
